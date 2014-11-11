@@ -69,7 +69,7 @@ if a = 13 then
    readln(c3);
    n.pregunta13(c1,c2,c3);
 end;
-if a = 14 then
+{if a = 14 then
    begin
    readln(c1);
    if c1 = '+' or c1 = '-' then
@@ -87,6 +87,14 @@ if a = 14 then
    o:=false;
    n.pregunta14(c1,c2,c3,c4,o);
 
+end;}
+if a = 16 then
+   begin
+   readln(v);
+   readln(c1);
+   readln(u);
+   writeln(n.pregunta16(v,c1,u));
 end;
+
 readln();
-end.          
+end. 
